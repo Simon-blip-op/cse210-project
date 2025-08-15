@@ -25,8 +25,14 @@ class Program
         viewer1.LeaveComment(video1, "Great explanation!");
         viewer2.LeaveComment(video1, "Very helpful.");
         viewer3.LeaveComment(video1, "I finally understand C# now.");
+
         viewer1.LeaveComment(video2, "Thanks for this!");
-        viewer3.LeaveComment(video3, "Loved it!");
+        viewer2.LeaveComment(video2, "Loved it!");
+        viewer3.LeaveComment(video2, "This helped me to understand OOP much better");
+
+        viewer1.LeaveComment(video3, "One of the best explainations I've seen!  ");
+        viewer2.LeaveComment(video3, "This really cleared up my confusion about abstraction. . ");
+        viewer3.LeaveComment(video3, "I like how you explained the this, step by step. Amazing! ");
 
 
         Console.WriteLine(video1.GetDisplayString());
